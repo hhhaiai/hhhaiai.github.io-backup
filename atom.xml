@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hhhaiai.github.io/</id>
     <title>Gridea</title>
-    <updated>2019-09-27T14:03:22.707Z</updated>
+    <updated>2019-09-27T14:11:41.019Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hhhaiai.github.io/"/>
     <link rel="self" href="https://hhhaiai.github.io//atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>Just do it!</subtitle>
     <logo>https://hhhaiai.github.io//images/avatar.png</logo>
     <icon>https://hhhaiai.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
@@ -37,70 +37,6 @@
 <p>9月10日-11日，2019谷歌开发者大会(Google Developer Day)在上海世博中心成功举办，大会围绕热门技术、工具和开发者进行了一场深入的交流。本次大会的主题是“更高的赋能开发者”，和易观“让数据能力平民化”的使命一样，都旨在更好地服务用户和开发者。</p>
 </blockquote>
 </blockquote>
-<!-- more -->
-<p>从大会主题内容可以看到，5G时代来临，在拥抱新技术的同时，开始更加注重对用户隐私的保护。易观SDK架构师薛永富参加了此次开发者大会，在这里和大家分享大会的4点趋势和感想。</p>
-<h2 id="趋势1拥抱5g">趋势1：拥抱5G</h2>
-<p>随着5G商用牌照的发放，网络成本进一步下降，相应的人工智能的应用场景更加普及，GDD（Google Developer Day缩写，以下不再赘述）也推荐了TensorFlow、VR等高传输网络下的基础技术。</p>
-<figure data-type="image" tabindex="1"><img src="https://hhhaiai.github.io//post-images/1569592131791.webp" alt=""></figure>
-<p>前几天谷歌推出了Android 10的版本，改变了一贯用甜点命名的习惯，也开始做出了更多的改变。Android 10版本自带5G支持功能，提供是否支持高速网络、是否为收费网络等接口，更好的地帮助开发者利用5G技术推动应用创新。此外，Android 10版本也提供了官方深色主题,和arm、高通等合作，在移动设备上增加更多的机器学习功能，包括语音识别生成视频字幕、利用本地机器模型生成推荐信息等。</p>
-<p>5G也会为大数据带来巨大的改变，智能的IOT设备也会运用在更多的场景下，边缘计算将取代流式和批量式成为新一代的大计算架构。在这点上，GDD和去年易观提出的大数据IOTA架构也非常一致。</p>
-<h2 id="趋势2高效跨平台开发-语言更加简洁">趋势2：高效跨平台开发 ，语言更加简洁</h2>
-<p>GDD发布了跨平台开发框架Flutter1.9和开发语言Dart2.5版本，支持web和移动端统一，现在的Flutter更多的是UI框架，未来可能会增加更多多端统一的基础库。Kotlin号称是这几年来普及最快的语言之一，android系统的Kotlin语言进一步优化，可以编译成Java字节码，也可以编译成JavaScript, 更好的构建发展平台。</p>
-<blockquote>
-<ul>
-<li>借此机会打个广告：现SDK人手不足，来不及对这么多语言进行优化。易观CTO郭炜郭大侠承诺，成功推荐一个SDK高手入职，他本人就送IPhone 11 pro一个，感兴趣的可以上Boss直聘找他。</li>
-</ul>
-</blockquote>
-<pre><code>        ![](https://hhhaiai.github.io//post-images/1569592313146.gif)
-                            Java和Kotlin对比
-</code></pre>
-<h2 id="趋势3机器学习">趋势3：机器学习</h2>
-<p>近年，数据使用率不停增加，机器学习框架越来越多。Tensorflow 是谷歌开源的一个机器学习平台，会上发布了TenserFlow2.0，重点优化 Keras 和 Eager Execution 的能力，简化开发流程。<br>
-<img src="https://hhhaiai.github.io//post-images/1569592362979.webp" alt=""></p>
-<p>此外，谷歌还发布了更多支持场景，如用户微信小程序的TensorFlow.js ，能有效的降低用户的使用门槛，支持更多用户使用。</p>
-<p>（题外话：谷歌为什么有这么多妹子程序媛？易观SDK技术部都是男生，出去团建爬山拍个集体照感觉和动物园猴山差不多，在此祈求更有美女程序猿入职我司啊 。）</p>
-<h2 id="趋势4更加注重用户隐私">趋势4：更加注重用户隐私</h2>
-<p>5G时代来临后，数据就像流动的大河。但其中有一个很严重的问题：对数据隐私的保护。<br>
-本地机器学习(如TensorFlow.js)也是一种隐私性能的保护的方式。不管是人脸识别关键点数据，还是用户的语音都是如此。</p>
-<p>Android4.4之后引入SELinux机制，一直基于健壮性进行优化，提升数据安全性。根据我们总结，主要从以下几个方面进行：</p>
-<ol>
-<li>虚拟机改造，基于运行容器和工作机制改造，提升运行的速度；</li>
-<li>废弃部分的敏感信息获取接口；</li>
-<li>权限更加严格优化；</li>
-<li>文件夹访问权限的增强。</li>
-</ol>
-<p>从Android10开始，在外部存储设备中为每个应用提供了一个“隔离存储沙盒”（例如 /sdcard），任何其他应用都无法直接访问应用的沙盒文件。 在这个背景下，用户的画像业务也会受到不同的影响。当然大家希望能确定一个设备，怎么办呢？这里简单的分享下易观的经验，要注意三点：</p>
-<ul>
-<li>
-<p>Ⅰ、 遵守GDPR(General Data Protection Regulation)</p>
-<p>GDPR（一般资料保护规范）主要目标是取回公民以及住民对于个人资料的控制。是后端提供去除对应用户的所有数据的接口，让用户的部分信息及时清除。</p>
-</li>
-<li>
-<p>Ⅱ、拒绝采集用户敏感性信息</p>
-<p>采集范围包含设备基本信息和开发者预埋点的信息，坚决不自动采集用户的设备sim卡相关和其他的敏感信息。</p>
-</li>
-<li>
-<p>Ⅲ、使用算法生成唯一的ID</p>
-</li>
-</ul>
-<p>通过设备型号+特定值，生成唯一的ID，存储在跨app能访问的区域，这样多个app可以获取   统一设备标志，不管如何重装、卸载等都可以确保唯一<br>
-高版本约束跨app访问的区域后，可以通过后台机器学习，来计算真正的设备用户<br>
-在易观方舟里，我们使用用户定义的标志，可以使用硬件标志，也可以使用不同场景下唯一性标志。<br>
-<strong>&quot;君子爱数，取之有道&quot;</strong>，合理合情地取得数据是SDK的根本。</p>
-<p>————————</p>
-<p>本次谷歌开发者大会除了谷歌分享谷歌最新技术，现场还隐藏了很多“彩蛋”。比如谷歌艺术和文化推出 的&quot;观妙中国&quot;，让艺术爱好者足不出户就可欣赏到高清艺术藏品。</p>
-<p>“智舞窑变”即根据动作识别，变成最像你的古董，像这样↓↓↓</p>
-<pre><code>     ![](https://hhhaiai.github.io//post-images/1569592396222.gif)
-                                                        
-                              智舞窑变 
-                                        
-               
-     ![](https://hhhaiai.github.io//post-images/1569592415419.webp)
-</code></pre>
-<p>写在最后</p>
-<p>易观的技术团队专业、开放且幽默，我们整个技术团队的MTP是“让未来科技，开箱即用”。我们一直都在保持学习世界最新知识，架构应用到我们复杂的场景当中，如果你也想为易观技术团队的一份子，欢迎随时和我们交流，扫描下方微信二维码加我好友。</p>
-<p>我是易观SDK架构师薛永富，我在易观等你。</p>
-<figure data-type="image" tabindex="2"><img src="https://hhhaiai.github.io//post-images/1569592261212.png" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
@@ -114,25 +50,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
