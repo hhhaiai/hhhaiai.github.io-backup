@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hhhaiai.github.io/</id>
     <title>Gridea</title>
-    <updated>2019-09-27T13:54:43.535Z</updated>
+    <updated>2019-09-27T13:57:27.525Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hhhaiai.github.io/"/>
     <link rel="self" href="https://hhhaiai.github.io//atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://hhhaiai.github.io//post/cong-2019-gu-ge-kai-fa-zhe-da-hui-kan-da-shu-ju-fa-zhan-de-4-ge-qu-shi">
         </link>
         <updated>2019-09-27T13:43:56.000Z</updated>
-        <content type="html"><![CDATA[<p>首篇为自己打个广告. <a href="https://mp.weixin.qq.com/s/MYC6z_VuMIqEDdEoo9Sxfw">原文地址</a></p>
+        <summary type="html"><![CDATA[<p>首篇为自己打个广告. <a href="https://mp.weixin.qq.com/s/MYC6z_VuMIqEDdEoo9Sxfw">原文地址</a>！ 大家鼓掌👏👏👏👏</p>
 <blockquote>
 <ul>
 <li>导读</li>
@@ -25,6 +25,17 @@
 <p>9月10日-11日，2019谷歌开发者大会(Google Developer Day)在上海世博中心成功举办，大会围绕热门技术、工具和开发者进行了一场深入的交流。本次大会的主题是“更高的赋能开发者”，和易观“让数据能力平民化”的使命一样，都旨在更好地服务用户和开发者。</p>
 </blockquote>
 </blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<p>首篇为自己打个广告. <a href="https://mp.weixin.qq.com/s/MYC6z_VuMIqEDdEoo9Sxfw">原文地址</a>！ 大家鼓掌👏👏👏👏</p>
+<blockquote>
+<ul>
+<li>导读</li>
+</ul>
+<blockquote>
+<p>9月10日-11日，2019谷歌开发者大会(Google Developer Day)在上海世博中心成功举办，大会围绕热门技术、工具和开发者进行了一场深入的交流。本次大会的主题是“更高的赋能开发者”，和易观“让数据能力平民化”的使命一样，都旨在更好地服务用户和开发者。</p>
+</blockquote>
+</blockquote>
+<!-- more -->
 <p>从大会主题内容可以看到，5G时代来临，在拥抱新技术的同时，开始更加注重对用户隐私的保护。易观SDK架构师薛永富参加了此次开发者大会，在这里和大家分享大会的4点趋势和感想。</p>
 <h2 id="趋势1拥抱5g">趋势1：拥抱5G</h2>
 <p>随着5G商用牌照的发放，网络成本进一步下降，相应的人工智能的应用场景更加普及，GDD（Google Developer Day缩写，以下不再赘述）也推荐了TensorFlow、VR等高传输网络下的基础技术。</p>
